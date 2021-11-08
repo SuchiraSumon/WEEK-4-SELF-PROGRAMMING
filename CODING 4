@@ -1,0 +1,33 @@
+package selfprogramming;
+
+import java.util.Scanner;
+
+public class MathClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double a;
+		double b;
+		double c;
+		double ans;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter a: ");
+		a=scan.nextDouble();
+		
+		System.out.println("Enter b: ");
+		b=scan.nextDouble();
+		
+		System.out.println("Enter c: ");
+		c=scan.nextDouble();
+		
+		{
+		ans = (-b +( Math.sqrt(b*b-4*a*c)))/(2*a);
+		
+		System.out.print("Answer : " + ans);
+		}
+	}
+
+}
